@@ -26,7 +26,7 @@ implements interface
 >>  用public abstract void setPay(double pay)定义教师发放薪水、public double getPay()定义教师查询薪水的方法。<br>
 >2. 创建博士研究生类 DoctoralStu ，用implements实现2个接口 StuManage和TchManage ，
 >>  定义姓名、性别、年龄、每学期学费、每月薪水等属性，设置姓名、性别、年龄的set、get方法（自动生成）；<br>
->>  重写前两个接口中所有方法（非抽象类实现某接口，必须重写此接口中所有方法），即setFee() setFee() setFee() getPay()方法。（自动生成）<br>
+>>  重写前两个接口中所有方法（非抽象类实现某接口，必须重写此接口中所有方法），即setFee()、getFee()、setPay()、getPay()方法。（自动生成）<br>
 >3. 创建测试类Test，
 >>  用Scanner相关方法实现运行时交互式输入，即实例化博士生；<br>
 >>  写出年收入和学费的计算方法以及两者之差；<br>
