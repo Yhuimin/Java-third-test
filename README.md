@@ -3,8 +3,8 @@ implements interface
 ## 计G201游慧敏2020322070 
 ## 实验目的
 > 掌握Java中抽象类和抽象方法的定义； <br>
-> 掌握Java中接口的定义，熟练掌握接口的定义形式以及接口的实现方法<br>
-> 了解异常的使用方法，并在程序中根据输入情况做异常处理<br>
+> 掌握Java中接口的定义，熟练掌握接口的定义形式以及接口的实现方法；<br>
+> 了解异常的使用方法，并在程序中根据输入情况做异常处理。<br>
 ## 实验内容
 >某学校为了给学生提供勤工俭学机会，也减轻授课教师的部分压力，准许博士研究生参与课程的助教工作。<br>
 >  此时，该博士研究生有双重身份：学生和助教教师。<br>
@@ -24,11 +24,11 @@ implements interface
 >1. 创建2个接口 StuManage和TchManage ，
 >>  用public abstract void setFee(double fee)定义学生缴纳学费、public  double getFee()定义学生查学费的方法；<br>
 >>  用public abstract void setPay(double pay)定义教师发放薪水、public double getPay()定义教师查询薪水的方法。<br>
->2. 创建博士研究生类 DoctoralStu ，用implements实现2个接口 StuManage和TchManage 
->>  定义姓名、性别、年龄、每学期学费、每月薪水等属性，设置姓名、性别、年龄的set、get方法（自动生成），<br>
+>2. 创建博士研究生类 DoctoralStu ，用implements实现2个接口 StuManage和TchManage ，
+>>  定义姓名、性别、年龄、每学期学费、每月薪水等属性，设置姓名、性别、年龄的set、get方法（自动生成）；<br>
 >>  重写前两个接口中所有方法（非抽象类实现某接口，必须重写此接口中所有方法），即setFee() setFee() setFee() getPay()方法。（自动生成）<br>
 >3. 创建测试类Test，
->>  用Scanner相关方法实现运行时交互式输入，即实例化博士生；
+>>  用Scanner相关方法实现运行时交互式输入，即实例化博士生；<br>
 >>  写出年收入和学费的计算方法以及两者之差；<br>
 >>  查询国家最新工资纳税标准，写出该博士生的年应纳税金额，用税率*（年收入-学费）。<br>
 >4. 异常处理，根据具体情况而定（方法多样）。
