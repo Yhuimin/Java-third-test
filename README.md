@@ -26,9 +26,9 @@ implements interface
 >>  用public abstract void setPay(double pay)定义教师发放薪水、public double getPay()定义教师查询薪水的方法。<br>
 >2. 创建博士研究生类 DoctoralStu ，用implements实现2个接口 StuManage和TchManage 
 >>  定义姓名、性别、年龄、每学期学费、每月薪水等属性，设置姓名、性别、年龄的set、get方法（自动生成），<br>
->> （自动生成）重写前两个接口中所有方法（非抽象类实现某接口，必须重写此接口中所有方法），即setFee() setFee() setFee() getPay()方法。<br>
+>>  重写前两个接口中所有方法（非抽象类实现某接口，必须重写此接口中所有方法），即setFee() setFee() setFee() getPay()方法。（自动生成）<br>
 >3. 创建测试类Test，
->   用Scanner相关方法实现运行时交互式输入，即实例化博士生；写出年收入和学费的计算方法以及两者之差；<br>
+>>  用Scanner相关方法实现运行时交互式输入，即实例化博士生；写出年收入和学费的计算方法以及两者之差；<br>
 >>  查询国家最新工资纳税标准，由此写出该博士生的年应纳税金额，用税率*（年收入-学费）。<br>
 >4. 异常处理，根据具体情况而定（方法多样）。
 ## 核心代码
@@ -79,6 +79,6 @@ public class DoctoralStu implements StuManage,TchManage{
 ![img](https://p.qlogo.cn/qqmail_head/5cXMEH7OTmzhqvibzsJgjic2XWRfoh1ofqHPSUaE6xbDicxsFQJdic7qdKZuFn99tGtI/0)
 ## 编程感想
 > 通过此次试验，我学会了什么是抽象类以及抽象方法的定义;<br>
->             理解了什么是接口以及如何定义接口、接口的实现方法；<br>
->             学习了如何使用异常，如何做异常处理。
+> 理解了什么是接口以及如何定义接口、接口的实现方法；<br>
+> 学习了如何使用异常，如何做异常处理。
 
